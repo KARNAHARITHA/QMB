@@ -16,8 +16,9 @@ The variable wage is going to be our dependent variable(Y)
 •	Race : Hispanic/ white/ black/ Asian/ others
 
 
-Interpretation for the best fit model: 
+**Interpretation for the best fit model: **
 For our dataset of wages, the best fit model is the multiple regression model with Wage as independent variable, education, and female as independent variables. As we know that higher the adjusted R squared value, better the model is and hence we came to this conclusion based on adjusted R squared value which is 0.08202 for the multiple regression model. In all the models we tested, most of the models has “education” as significant term.The following is the summary of that multiple regression model race_B.out:
+
 Call:
 lm(formula = wage ~ education + female, data = new_data)
 Residuals:
@@ -51,8 +52,8 @@ A prediction interval captures the uncertainty around a single value whereas con
 
 updata=data.frame(education=50,female=1)
 predict(race_B.out,updata,interval="predict")
-   fit                 lwr      upr
-1 60.44612 25.0484 95.84383
+   fit                 lwr             upr
+1 60.44612          25.0484           95.84383
 
 Interpretation :From the above predicted values in the interval=”predict”, we can say that if an employee has an education of 50 years and is “female” ,then she can earn upto $60.44612 per hour and least and highest pay in present being $25.0484 and $95.84383 respectively.
 
