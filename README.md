@@ -34,8 +34,8 @@ Residual standard error: 10.32 on 97 degrees of freedom
 Multiple R-squared:  0.1006,	Adjusted R-squared:  0.08202 
 F-statistic: 5.423 on 2 and 97 DF,  p-value: 0.005856
 
-### Equation for the model: 
-**Y= 20.98202 + 0.01295 *X2 – 3.12584 * X3**
+## Equation for the model: 
+Y= 20.98202 + 0.01295 *X2 – 3.12584
 where  β0(intercept)= 20.98202 and β1(slope)= 0.01295, β2(slope)= – 3.12584
 
 IV’s and DV’s
