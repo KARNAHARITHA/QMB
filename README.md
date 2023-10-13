@@ -16,7 +16,7 @@ The variable wage is going to be our dependent variable(Y)
 •	Race : Hispanic/ white/ black/ Asian/ others
 
 
-**Interpretation for the best fit model: **
+**Interpretation for the best fit model:**
 For our dataset of wages, the best fit model is the multiple regression model with Wage as independent variable, education, and female as independent variables. As we know that higher the adjusted R squared value, better the model is and hence we came to this conclusion based on adjusted R squared value which is 0.08202 for the multiple regression model. In all the models we tested, most of the models has “education” as significant term.The following is the summary of that multiple regression model race_B.out:
 
 Call:
@@ -29,7 +29,7 @@ Coefficients:
 (Intercept)   5.4905     5.6175   0.977  0.33080   
 education     1.1743     0.4019   2.922  0.00433 **
 female       -3.7590     2.0842  -1.804  0.07440 . 
----
+
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 Residual standard error: 10.32 on 97 degrees of freedom
 Multiple R-squared:  0.1006,	Adjusted R-squared:  0.08202 
