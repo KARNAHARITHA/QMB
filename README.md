@@ -1,5 +1,5 @@
-# QMB
-Determination of wages
+
+# **DETERMINATION OF WAGES**
 
 ## **SOURCE OF DATA**
 
