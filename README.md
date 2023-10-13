@@ -61,7 +61,7 @@ updata=data.frame(education=50,female=0)
 predict(race_B.out,updata,interval="confidence")
 
          fit                lwr            upr
-1 64.20511    34.8893      93.52093
+      64.20511             34.8893      93.52093
 
 Interpretation :From the above predicted values in the interval=”confidence”, we can say that if an employee has an education of 50 years and is “male” ,then he can earn up to  $64.20511    per hour and least and highest pay being $34.8893 and $93.52093 respectively during some time in the future.
 
